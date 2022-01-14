@@ -5,8 +5,13 @@ name = "pypi"
 
 [packages]
 django = "==3.2.11"
+pillow = "*"
+qrcode = "*"
+django-3-jet = "*"
 
 [dev-packages]
+yapf = "*"
+autopep8 = "*"
 
 [requires]
 python_version = "3.8"
